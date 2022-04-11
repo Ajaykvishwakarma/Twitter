@@ -55,12 +55,12 @@ export  function  Replies() {
 
       db.collection("posts").add({
        
-        displayName: userInf.displayName,
-        username: user,
-        verified: true,
-        text: tweetMsg,
-        image: tweetImage,
-        avatar: userInf.avatar,
+         displayName: userInf.displayName,
+         username: user,
+         verified: true,
+         text: tweetMsg,
+         image: tweetImage,
+         avatar: userInf.avatar,
          likes:like,
          replies:replie,
          retweets:retweet,

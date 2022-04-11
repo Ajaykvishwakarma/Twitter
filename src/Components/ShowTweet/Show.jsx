@@ -45,9 +45,10 @@ export const Show = () => {
      
     },[])
 
-    
+    let count = 0;
     const handleLike = () => {
-
+        count++;
+        console.log(count)
 
 
     }

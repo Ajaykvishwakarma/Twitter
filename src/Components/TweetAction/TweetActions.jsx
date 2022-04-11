@@ -2,7 +2,7 @@ import MoreHorizOutlinedIcon from '@mui/icons-material/MoreHorizOutlined';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 // import { SidebarLink } from "../SidebarLinks/SidebarLink";
 import Avatar from '@mui/material/Avatar';
-import { useState, useEffect } from "react";
+import { useState, useEffect} from "react";
 import { db } from '../../Configs/firebase';
 import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
 import ReplyAllOutlinedIcon from '@mui/icons-material/ReplyAllOutlined';
@@ -13,9 +13,10 @@ import { useParams } from "react-router-dom";
 import Style from './TweetActions.module.css';
 import { Link } from "react-router-dom";
 import { Replies } from "../RepliesTweet/Replies"
-
+import { useNavigate } from "react-router-dom";
 export const TweetActions = () => {
 
+        const navigate = useNavigate()
        const [ data, setData] = useState({});
        const {id} = useParams()
         useEffect(() => {
@@ -24,7 +25,10 @@ export const TweetActions = () => {
         );
         },[])
     //  console.log(data.replies.forEach((el) => console.log(el)))
-
+     const handleDelete = () => {
+     db.collection('posts').doc(`${id}`).delete();
+     navigate("/home")
+    }
 
     return (
         <div className={Style.Show_container}>
@@ -44,7 +48,14 @@ export const TweetActions = () => {
                   <span style={{marginLeft:"10px"}}>@{data.username}</span> 
                   
                </div>
-               <div><MoreHorizOutlinedIcon className={Style.logout_more} /></div>
+               <div>
+               
+                   <button onClick={handleDelete}  style={{width:"40px", border:"none", background:"none"}} id="raised-button-file">
+                   <MoreHorizOutlinedIcon className={Style.logout_more} htmlFor="raised-button-file" />
+                   
+                   </button>
+                </div>
+                
             </div>
             <div className={Style.post_text}>
             
