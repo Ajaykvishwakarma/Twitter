@@ -1,0 +1,37 @@
+.sidebarLink{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+
+
+}
+
+.sidebarLink:hover{
+    background-color: var(--twitter-background);
+    border-radius: 30px;
+    transition: all 100ms ease-out;
+}
+
+.sidebarLink {
+    padding: 10px;
+}
+
+.sidebarLink > p{
+    font-weight: 400;
+    font-size: 20px; 
+    line-height: 24px;
+    margin-right: 20px;
+}
+
+.sidebarLink--active > p{
+    font-weight: 700;
+}
+
+.Sidebar_Icons{
+
+    
+    margin-right: 10px !important;
+    
+    
+}

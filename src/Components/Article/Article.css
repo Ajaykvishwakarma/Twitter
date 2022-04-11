@@ -1,0 +1,31 @@
+.article{
+    padding: 5px 20px 20px 20px;
+}
+
+.article:hover{
+    cursor: pointer;
+    background-color: var(--twitter-background);
+    transition: all 100ms ease-in-out;
+}
+
+.article_topic{
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 400;
+    color: var(--light-text);
+}
+.article_type{
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 400;
+    color: var(--light-text);
+}
+.article_title{
+    font-size: 15px;
+    font-weight: 700;
+    /* line-height: 20px; */
+    color: var(--twitter-color);
+    padding-top: 8px;
+    margin-top: auto;
+    margin-bottom: auto;
+}

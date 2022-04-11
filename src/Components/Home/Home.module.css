@@ -1,0 +1,17 @@
+.pages {
+    --twitter-color: #0f1419;
+    --twitter-background: #e6ecf0;
+    --twitterblue--color: #1d9bf0;
+    --buttontext-color: #ffffff;
+    --subtle-white: #f7f9f9;
+    --light-text: #536471;
+    
+}
+.pages {
+  display: flex !important;
+  min-height: 100vh !important;
+  /* max-width: 1300px; */
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 10px; 
+}

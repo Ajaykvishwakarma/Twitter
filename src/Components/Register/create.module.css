@@ -1,0 +1,67 @@
+.mainDiv {
+    border: 1px solid rgb(233, 233, 233);
+    width: 30%;
+    margin: auto;
+    margin-top: 3%;
+    border-radius: 15px;
+    padding-left:2%;
+    text-align: center;
+
+  }
+
+  .twitterLogo {
+    min-width: 40px;
+    max-width: 40px;
+    margin-top: 3%;
+  }
+.password{
+  margin-top: 3%;
+}
+
+.nextBtnDiv {
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+.nextbtn {
+  background-color: black;
+  width: 70%;
+  border-radius: 20px;
+  border: none;
+  height: 40px;
+  font-weight: bold;
+  color: white;
+
+}
+
+.label{
+  color: #39a3e9;
+}
+
+@media screen and (min-width:376px) and (max-width:768px) {
+
+  .mainDiv {
+    width: 70%;
+    margin: auto;
+    margin-top: 7%;
+  }
+
+.nextBtnDiv {
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+.nextbtn {
+  height: 45px;
+}
+
+}
+
+@media screen and (max-width:375px) {
+
+  .mainDiv {
+    width: 90%;
+    margin: auto;
+    margin-top: 8%;
+
+  }
+  
+}

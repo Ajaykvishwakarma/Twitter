@@ -1,0 +1,122 @@
+.mainDiv {
+  border: 1px solid rgb(198, 196, 196);
+  width: 40%;
+  margin: auto;
+  margin-top: 3%;
+  padding: 0% 4% 2% 3.5%;
+  border-radius: 15px;
+}
+
+.logo {
+  margin: auto;
+  width: 40%;
+}
+
+.twitterLogo {
+  min-width: 40px;
+  max-width: 40px;
+  margin-left: 40%;
+  margin-top: -15%;
+}
+
+.crossLogo {
+  min-width: 25px;
+  max-width: 25px;
+}
+.cross {
+  padding: 5px 0px 0px 0px;
+  margin-left: -98%;
+  cursor: pointer;
+}
+
+.nextBtnDiv {
+  text-align: center;
+
+  margin: auto;
+  margin-top: 35px;
+}
+.nextbtn {
+  width: 100%;
+  border-radius: 30px;
+  border: none;
+  background-color: #000000;
+  height: 40px;
+  font-weight: bold;
+  color: white;
+}
+
+.form-floatings {
+  margin-top: 30px;
+}
+.createAccount {
+  margin-top: 25px;
+}
+.useEmail {
+  margin-top: 20px;
+  color: #38a7f2;
+  cursor: pointer;
+}
+.inputField {
+  margin-top: 30px;
+}
+.nextbtn {
+  margin-top: 43px;
+}
+
+@media only screen and (min-width:376px) and (max-width:768px){
+  
+  .mainDiv {
+    margin-top: 5%;
+    border: 1px solid rgb(167, 165, 165);
+    width: 70%;
+  }
+  
+  .logo {
+    width: 35%;
+  }
+  
+  .twitterLogo {
+    min-width: 50px;
+    max-width: 50px;
+  }
+  
+  .crossLogo {
+    min-width: 30px;
+    max-width: 30px;
+  }
+
+  .nextBtnDiv {
+    margin-top: 10px;
+  }
+  .nextbtn {
+    height: 45px;
+  }
+  .createAccount {
+    margin-top: 35px;
+    margin-bottom: -1%;
+  }
+
+}
+
+@media screen and (max-width:375px){
+  
+  .mainDiv {
+    width: 95%;
+    margin-top: 4%;
+  }
+  
+  .logo {
+    width: 35%;
+  }
+  
+  .twitterLogo {
+    margin-left: 30%;
+  }
+  .nextBtnDiv {
+    margin-top: 25px;
+  }
+  .nextbtn {
+    height: 45px;
+  }
+  
+}

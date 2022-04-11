@@ -1,0 +1,49 @@
+.logOut{
+    display: flex !important;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.logOut:hover{
+    background-color: var(--twitter-background);
+    border-radius: 30px;
+    transition: color 100ms ease-out;
+}
+
+.sidebar__avatar{ 
+    margin: 10px;
+}
+
+.sidebar__user{
+    display: flex;
+    flex-direction: column;
+}
+
+.logout_dispname{
+    font-weight: 700 !important;
+    font-size: 15px !important;
+    line-height: 20px !important;
+}
+
+.logout_more{
+    text-align: right;
+    margin-left: auto;
+    margin-right: 15px;
+}
+
+.logout_more:hover{
+    background-color: gray;
+    border-radius:  15px;
+}
+
+.logBtn{
+    border:none;
+    margin-left:30%;
+    height:40px;
+    border-radius: 10px;
+    background-color: rgb(60, 172, 247);
+}
+
+.logBtn:hover{
+    background-color: red;
+}

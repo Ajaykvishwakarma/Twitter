@@ -1,0 +1,349 @@
+.body{
+    display:flex;
+  }
+  
+  .image{
+    width:55%;
+    height:700px;
+  }
+  
+  .image > .img{
+    width:100%;
+    height:100%;
+  }
+  
+  .content_part{
+    background:rgb(255, 255, 255);
+    width:45%;
+    padding-left: 3%;
+    
+  }
+  
+  .icon{
+    width:8%;
+    margin-top:5%
+  }
+  
+  #happening,#join
+  {
+    color:#000000;
+    margin-top: 2%;
+    font-size: 60px;
+    font-weight: 900;
+    letter-spacing: -1px;
+    font-family: "Verdana","Segoe UI", Helvetica, Arial, sans-serif;
+  }
+  
+  #join{
+    font-size: 27px;
+    margin-top:7%
+  }
+  
+  .signlogin{
+    width:310px;
+    border-radius: 30px;
+    height:39px;
+    background-color: white;
+    border:1px solid rgb(218, 215, 215);
+    display: flex;
+    margin:2% 0 3% 0%;
+    justify-content: center;
+    padding-top:6px;
+    cursor: pointer;
+  }
+  
+  .signlogin > #btnicon{
+    width:22px;
+    height:22px;
+  }
+  
+  .signlogin > span{
+    font-family: "Verdana";
+    margin-top:1%;
+    margin-left:3%;
+    font-size: 13px;
+    color:rgb(73, 72, 72)
+  }
+  
+  .signlogin:hover{
+    background-color: rgb(223, 223, 223);
+  }
+  
+  #line{
+    display: flex;
+    width:310px;
+    margin-left: 2%;
+  }
+  
+  #line > .line2{
+    width:40%;
+    height:1px;
+    border-top:1px solid rgb(196, 194, 194);
+    margin-top:1%;
+  }
+  #line > #or{
+    margin:-3% 3% 0 3%;
+  }
+  
+  #twitter{
+    background-color:#1d9bf0;
+    font-size: 15px;
+    padding-top:6px;
+    height:39px;
+  }
+
+  #twitter:hover{
+    background-color: #277bb3;
+  }
+
+  #twitter .link{
+    color:white;
+    text-decoration: none;
+  }
+  
+  .terms{
+    color:rgb(87, 87, 87);
+    font-size: 11px;
+    margin-left: 2%;
+    flex-wrap: wrap;
+    width:310px;
+    margin-top:-2%;
+  }
+  
+  .terms .a{
+    text-decoration: none;
+    color:#1d9bf0;
+    line-height: 13px;
+  }
+  
+  .terms .a:hover{
+    text-decoration:underline;
+  }
+  
+  #account{
+    margin-left:2%;
+    margin-top:9%;
+    font-weight: 900;
+    letter-spacing: 1px;
+  }
+  
+  #signin{
+    border:1px solid rgb(179, 179, 236);
+    color:#1d9bf0;
+    background-color: white;
+    height:40px;
+    padding-top:8px;
+  }
+  
+  #signin:hover{
+    background-color: #191a1a;
+  }
+
+  #signin .link{
+    color:#1d9bf0;
+    text-decoration: none;
+  }
+  
+  #footer{
+    height:45px;
+    background-color: black;
+    border:1px solid black;
+    font-size: 12px;
+    justify-content: space-evenly;
+    display: flex;
+    padding-top: 20px;
+  }
+  
+  #footer > a{
+    color:rgb(126, 125, 125);
+    text-decoration: none;
+  }
+
+  #footer > a:hover, #atag:hover{
+    text-decoration: underline;
+  }
+  
+  #lasline{
+    height:30px;
+    background-color: black;
+    border:1px solid black;
+    font-size: 12px;
+    justify-content: center;
+    display: flex;
+    color:rgb(126, 125, 125);
+  }
+  
+  #lasline > #set{
+    width:190px;
+  }
+  
+  #lasline #atag{
+    color:rgb(126, 125, 125);
+    margin-right: 6%;
+    text-decoration: none;
+  }
+  
+
+@media screen and (min-width:376px) and (max-width:768px){
+
+  .body{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+  }
+
+  .body > .image{
+    order: 2;
+  }
+  
+  .image{
+    display: block;
+    width:100%;
+    height:400px;
+  }
+  
+  .image > img{
+    width:100%;
+    height:100%;
+  }
+  
+  .content_part{
+    display: block;
+    width: 100%;
+    height:750px;
+    padding-left: 7%;;
+  }
+  
+  .icon{
+    width:7%;
+    margin:3% 0 0 10%;
+  }
+  
+  #happening,#join
+  {
+    font-size: 70px;
+    margin-left: 10%;
+  }
+  
+  #join{
+    font-size: 30px;
+  }
+  
+  .signlogin{
+    margin:2% 0 3% 10%;
+  }
+
+  #line{
+    margin-left: 12%;
+  }
+  
+  .terms{
+    font-size: 13px;
+    margin-left: 11%;
+    margin-top:-1%;
+  }
+  
+  #account{
+    margin-left:11%;
+    margin-top:9%;
+  }
+
+  #footer{
+    width:100%;
+    height:80px;
+    font-size: 14px;
+    justify-content:space-evenly;
+    text-align: center;
+    padding:2%;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #lasline{
+    width:100%;
+    height:60px;
+    font-size: 14px;
+  }
+  
+  #lasline > #set{
+    margin-top: 1%;
+    width:280px;
+  }
+}
+
+@media screen and (max-width:375px){
+  .body{
+    display:flex;
+    flex-direction: column;
+  }
+
+  .body > .image{
+    order:2;
+  }
+  
+  .image{
+    width:100%;
+    height:300px;
+  }
+
+  .img{
+    height:108%;
+  }
+
+  .content_part{
+    width:100%;
+    padding-left: 8%;
+  }
+  
+  .icon{
+    width:12%;
+    margin-top:9%
+  }
+  
+  #happening,#join
+  {
+    font-size: 45px;
+  }
+  
+  #join{
+    font-size: 25px;
+  }
+  
+  .signlogin{
+    margin:3% 0 4% 0%;
+  }
+
+  #line{
+    width:320px;
+
+  }
+
+  #twitter{
+    padding: top 10px;
+  }
+  
+  #footer{
+    width:100%;
+    height:150px;
+    font-size: 13px;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 20px;
+    margin-top: 6%;
+    gap: 15px;
+  }
+  
+  #lasline{
+    height:50px;
+    font-size: 14px;
+    padding-top: 15px;
+  
+  }
+  
+  #lasline > #set{
+    width:220px;
+  }
+  
+}

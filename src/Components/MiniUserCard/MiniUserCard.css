@@ -1,0 +1,42 @@
+.mini_profile_card{
+    display: flex !important;
+    align-items: center;
+    padding: 5px 20px 0px 0px;
+}
+
+.mini_profile_card:hover{
+    background-color: var(--twitter-background);
+    transition: all 100ms ease-out;
+}
+
+.mini_profile_avatar{
+    margin: 15px;
+}
+
+.mini_usernames{
+    flex: 01;
+    display: flex;
+    flex-direction: column;
+}
+
+.mini_dispname{
+    font-weight: 700 !important;
+    font-size: 15px !important;
+    line-height: 20px !important;
+}
+
+.follow_button{
+    text-transform: inherit !important;
+    margin-top: 20px !important;
+    /* height: 40px !important; */
+    font-weight: 700 !important;
+    background-color: #333333 !important;
+    color: var(--buttontext-color) !important;
+    border: none;
+    border-radius: 30px !important;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    padding: 5px 10px 5px 10px !important;
+    margin-bottom: auto !important;
+    margin-right: 0px !important;
+}

@@ -1,0 +1,161 @@
+
+
+.fixedBar{
+    z-index: 2;
+    position: fixed;
+    overflow: hidden;
+    width:100%;
+    -webkit-filter: blur(0.5px);
+    background-color: #ffffff;
+    margin-top: 0px;
+    
+    font-size: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.static_header{
+    width: 1;
+}
+.tweetDiv{
+    width:100%;
+    height:180px;
+    border: 0.5px solid #d8dbdc;
+    display: flex;
+    max-width: 50%;
+    margin: auto;
+}
+
+.tweetBtn{
+    /* border-radius: 50px !important; */
+    padding : 8px !important;
+    width : 25% !important;
+    margin-left: 100px !important;
+    background-color: var(--twitterblue--color) !important;
+    color: var(--buttontext-color) !important;
+    border: none;
+    border-radius: 30px !important;
+}
+@media only screen and (max-width: 768px) {
+    #feedcontainer{
+        
+        height:700px;
+        width: 80%;
+        margin: auto;
+        margin-top: 0px;
+
+    }
+  
+    .tweetDiv2 > div:nth-child(2){
+        display: flex;
+        width:30%;
+        border: 1px solid red;
+    }
+    .tweetBtn{
+        border-radius: 50px !important;
+        padding : 4px !important;
+        width : 25% !important;
+        margin-left: 10px !important;
+    }
+    #navId{
+        width:90%;
+        margin-right:0%;
+    }
+}
+
+.tweetDiv > div:nth-child(1){
+
+    width:15%;
+    height:100%;
+   
+
+}
+.tweetDiv > div:nth-child(2){
+
+    width:85%;
+    height:100%;
+   
+}
+
+.tweetDiv2 > div:nth-child(1){ 
+    
+    border-bottom: 1px solid #eff3f4;
+  
+    width: 93%;
+    
+
+
+}
+.tweetDiv2 > div:nth-child(2){ 
+
+    width: 93%;
+    padding-top: 15px;
+    
+}
+
+.tweetInput{
+    border: none;
+    outline: none;
+    background-color: none;
+    width:100%;
+    font-size: 25px;
+    /* padding: 20px 40px 20px 5px ; */
+    height: 60px;
+    margin-top:18px;
+    margin-right: 50px;
+    overflow: unset;
+    margin-bottom: 10px;
+    
+    
+}
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  #navId{
+    max-width: 40% !important;
+    margin-left: auto;
+    margin-right: 32.5%;
+    -webkit-backdrop-filter: blur(180px);
+    backdrop-filter : blur(10px);
+    background-color: transparent;
+    color: black;
+  }
+
+
+  @media only screen and (max-width: 356px) {
+         #navId{
+        width:90%;
+         }
+
+         .tweetBtn{
+            border-radius: 50px !important;
+            padding : 4px !important;
+            width : 25% !important;
+            margin-left: 0px !important;
+        }
+        .tweetDiv2 > div:nth-child(2){
+            display: flex;
+        }
+       
+        #navId{
+            width:90%;
+            margin-right:0%;
+        }
+
+}
+
+
+
+#raised_button_file2{
+    background: rgb(124, 205, 230);
+    min-width: 20px;
+    min-height: 20px;
+    margin-left: 15px;
+    border: none;
+    border-radius: 5px;
+}

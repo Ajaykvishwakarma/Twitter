@@ -1,0 +1,74 @@
+.widget_search_input{
+    display: flex;
+    align-items: center;
+    background-color: var(--twitter-background);
+    padding: 10px;
+    border: 1px solid var(--twitter-background);
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.widget_search_input:focus-within{
+    border: 1px solid var(--twitterblue--color);
+}
+
+.searchResults{
+    background-color: var(--subtle-white);
+    padding: 10px;
+    border: 1px solid var(--twitter-background);
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 30px;
+    flex: 1 !important;
+    overflow-x: hidden !important;
+    /* overflow-y: hidden !important; */
+    height: auto !important; 
+    max-height: 300px !important;
+}
+
+/* .searchResults::-webkit-scrollbar {
+    display: none;
+} */
+
+.mini_profile_card{
+    display: flex !important;
+    align-items: center;
+    padding: 5px 20px 0px 0px;
+}
+.mini_profile_card:hover{
+    background-color: var(--twitter-background);
+    transition: all 100ms ease-out;
+}
+.mini_profile_avatar{
+    margin: 15px;
+}
+
+.mini_usernames{
+    flex: 01;
+    display: flex;
+    flex-direction: column;
+}
+
+.mini_dispname{
+    font-weight: 700 !important;
+    font-size: 15px !important;
+    line-height: 20px !important;
+}
+
+.widget_search_input > input{
+    border: none;
+    background-color: var(--twitter-background);
+    outline: none;
+    font-size: 15px !important;
+    font-weight: 400;
+}
+
+.widget_search_input > input:focus{
+    border: none !important;
+}
+
+.widget_search_icon{
+    color: gray;
+    padding-right: 10px;
+}
