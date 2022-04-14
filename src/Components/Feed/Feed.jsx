@@ -95,7 +95,7 @@ export  function Feed() {
    </div>
         <div className={Style.tweetDiv}>
         
-            <div><Avatar alt="User Profile" src={userInf.avatar} style={{height:"30%", width:"50%", margin:"auto", marginTop:"30%"}}/></div>
+            <div><Avatar alt="User Profile" src={userInf.avatar} style={{height:"30%", width:"60%", margin:"auto", marginTop:"30%"}}/></div>
             <div className={Style.tweetDiv2}>
                <form >
                 <div >

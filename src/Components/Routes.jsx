@@ -7,7 +7,7 @@ import { Routes, Route } from "react-router-dom"
 import { EnterPass } from './Login/EnterPass';
 import { Input } from '../Pages/input';
 import { AuthHome } from './Auth-Home/Auth-home';
-import { Buttons } from './Auth-Home/sign_login_button';
+// import { Buttons } from './Auth-Home/sign_login_button';
 import { CreatePass } from './Register/create_pswd';
 import { Home } from "./Home/Home";
 import { TweetReply } from "./TweetReplyRoute/TweetReply"
@@ -15,7 +15,7 @@ import { Profile } from './Profile/Profile';
 import { Messages } from './Message/Message';
 import { Explore } from './Explore/Explore';
 import { TweetPop } from './Tweet_Popup/Tweet_pop';
-
+import { Notification } from './Notification/Notification';
 
 export const AllRoutes = () => {
 
@@ -34,5 +34,6 @@ export const AllRoutes = () => {
             <Route path='/message' element={<Messages />} />
             <Route path='/explore' element={<Explore />} />
             <Route path='/tweet' element={<TweetPop />} />
+            <Route path='/notification' element={<Notification />} />
         </Routes>
 }

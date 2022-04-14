@@ -40,7 +40,7 @@ export const Sidebar = () => {
       
       </Link>
 
-      <Link style={{textDecoration:"none", color:"black"}} to={`/more`}>
+      <Link style={{textDecoration:"none", color:"black"}} to={`/home`}>
       <SidebarLink  Icon={MoreHorizOutlinedIcon} text="More"/>
       </Link>
 

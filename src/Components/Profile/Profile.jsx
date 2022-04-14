@@ -41,7 +41,7 @@ export const Profile = () => {
 
                         <div className="bio">{bio}<p></p></div>
 
-                        <div className={Styles.joinedDate}><CalendarMonthIcon />  <span> Joined {userInf.joinDate.Date}</span> </div>
+                        <div className={Styles.joinedDate}><CalendarMonthIcon />  <span> Joined {}</span> </div>
 
                     </div>
 

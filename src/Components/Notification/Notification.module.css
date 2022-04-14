@@ -1,0 +1,32 @@
+.notification{
+    
+        display: flex;
+        /* flex: 0.5 !important; */
+        
+        min-height:700px;
+        /* margin: auto !important; */
+        /* margin-left: 200px !important; */
+        
+}
+
+
+.notification > div:nth-child(2) { 
+
+    width:80%;
+    border: 1px solid #eff3f4;
+        
+}
+.fixedBar{
+    z-index: 2;
+    position: fixed;
+    overflow: hidden;
+    width:100%;
+   
+    background-color: #ffffff;
+    margin-top: 0px;
+    width:45.5%;
+}
+.fixedBar > h3{
+    margin-left: 10px;
+
+}

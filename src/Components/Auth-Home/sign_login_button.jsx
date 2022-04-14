@@ -23,7 +23,7 @@ export const Buttons = ({content}) =>{
         styles = {color:"rgb(73, 72, 72)",fontWeight:"100"}
     }
 
-    const Auth = async (e) =>{
+    async function Auth(e){
         
         try{
             var provider = new GoogleAuthProvider();

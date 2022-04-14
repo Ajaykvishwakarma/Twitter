@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "twitter-clone"
-  }
+    "default": "twitter-clone-ba49b",
+    "staging": "twitter-clone-ba49b"
+  },
+  "targets": {}
 }

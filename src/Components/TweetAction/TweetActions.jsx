@@ -27,6 +27,7 @@ export const TweetActions = () => {
     //  console.log(data.replies.forEach((el) => console.log(el)))
      const handleDelete = () => {
      db.collection('posts').doc(`${id}`).delete();
+     alert("Post Deleted")
      navigate("/home")
     }
 

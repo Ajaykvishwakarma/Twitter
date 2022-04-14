@@ -15,7 +15,7 @@
     -webkit-filter: blur(0.5px);
     background-color: #ffffff;
     margin-top: 0px;
-    width:45.5%;
+    width:45.1%;
 }
 .fixedBar > h3{
     margin-left: 10px;
@@ -28,7 +28,7 @@
 .tweetDiv{
     width:100%;
     height:180px;
-    border-bottom: 0.5px solid #d8dbdc;
+    border-bottom: 0.6px solid #d8dbdc;
     display: flex;
     margin-top: 50px;
 
