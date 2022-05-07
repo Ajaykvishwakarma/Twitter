@@ -35,47 +35,54 @@ These are the components outlined in levi's site. All levi's components support 
 
 ![alt text](https://raw.githubusercontent.com/Ajaykvishwakarma/Images/main/twitter_starting.png)
 
----
+
 ### Starting page
 
 | Syntax | Description |
 | ----------- | ----------- |
-| Header | Drop Down Header |
-| Footer | Static Footer |
-| Middle | Slider, Images |
-| Description | Read More |
+| Login_1 | Login with Google |
+| Login_2 | Login with Apple |
+| Login_3 | Login with Mobile and password |
+| Register | Rgister with new account |
+
+---
 
 ![alt text](https://raw.githubusercontent.com/Ajaykvishwakarma/Images/main/login_simple.png)
----
+
 ### Login
 
 | Syntax | Description |
 | ------------- | -------------- |
-| All Products | Products By All Categories |
-| Add to Cart | Add Any Product to Cart |
-| Color | Red, Blue, Green etc. |
+| Login | Login through any of this components |
+
+---
 
 ![alt text](https://raw.githubusercontent.com/Ajaykvishwakarma/Images/main/Home.png)
----
+
 ### Homepage
 
 | Syntax | Description |
 | ------------- | -------------- |
-| View Cart | Check Your cart |
-| Checkout From Cart | Buy Selected Items |
+| Feed | Create new tweet and post |
+| Show | Show all tweet |
+| All components | Home, Explore, Notifications, Messages, Profile, More |
+
+---
 
 ![alt text](https://raw.githubusercontent.com/Ajaykvishwakarma/Images/main/Debounce.png)
----
+
 
 ### Search Profile
  
 | Syntax | Description |
 | ------------- | -------------- |
-| Register | Ask for user details |
-| Login | Use user Details to login thier account  |
+| Search | Ask for user details |
+
+
+---
 
 ![alt text](https://raw.githubusercontent.com/Ajaykvishwakarma/Images/main/profile.png)
----
+
 
 ### Profile page
 
