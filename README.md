@@ -88,7 +88,7 @@ These are the components outlined in levi's site. All levi's components support 
 
 | Syntax | Description |
 | ------------- | -------------- |
-| Add Details | Ask for Extra Details to Proceed |
+| Profile | Show user Details |
 
 ---
 
