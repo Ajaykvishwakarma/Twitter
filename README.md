@@ -5,7 +5,7 @@
 
 This Project is about the clone of Twitter Website, a Social Media, Where People can share Thoughts, Post Messages. 
 
-We Made This Project using React, Material Ui and also used 🔥Firebase as database and also deployed in Vercel.
+We Made This Project using React, Material Ui and also used 🔥Firebase as database and also deployed on Firebase.
 
 <br>
 
